@@ -59,7 +59,7 @@ CREATE TABLE oorder (
   o_ol_cnt decimal(2,0) NOT NULL,
   o_all_local decimal(1,0) NOT NULL,
   o_entry_d timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (o_w_id,o_d_id,o_id),
+  PRIMARY KEY (o_w_id,o_d_id,o_id)
 );
 
 -- TODO: h_date ON UPDATE CURRENT_TIMESTAMP

@@ -55,8 +55,8 @@ public class WorkloadConfiguration {
   private int loaderThreads = ThreadUtil.availableProcessors();
   private int numTxnTypes;
   private TraceReader traceReader = null;
-  private boolean useKeyingTime = true;
-  private boolean useThinkTime = true;
+  private boolean useKeyingTime = false;
+  private boolean useThinkTime = false;
   private boolean enableForeignKeysAfterLoad = true;
   private boolean shouldEnableForeignKeys = true;
   private int batchSize = 128;
